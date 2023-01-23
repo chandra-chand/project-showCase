@@ -1,0 +1,15 @@
+.list-card {
+  list-style-type: none;
+  width: 20%;
+  margin-top: 25px;
+  margin-right: 20px;
+}
+.image {
+  height: 150px;
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.name {
+  font-family: 'Roboto';
+}

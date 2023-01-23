@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.image-container {
+  background-color: #f1f5f9;
+  padding: 20px;
+}
+.website-logo {
+  height: 50px;
+}
+.project-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
+}
+.un-ordered-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 80%;
+}
+.select {
+  background-color: #f1f5f9;
+  width: 300px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 8px;
+  border: 1px solid #e6e9ec;
+  border-radius: 4px;
+  outline: none;
+}
